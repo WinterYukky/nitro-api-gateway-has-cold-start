@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npx nitropack dev",
+    "build": "npx nitropack build",
+    "preview": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.209.0",
+    "@aws-sdk/lib-dynamodb": "^3.209.0",
+    "nitropack": "latest"
+  }
+}
